@@ -1,0 +1,16 @@
+<html ng-app="myApp">
+
+    <head>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.0/angular.js"></script>
+    </head>
+
+    <body ng-controller="FirstController">
+
+        <h4>Simplest adding machine ever</h4>
+        <button ng-click="add(1)" class="button">Add</button>
+        <button ng-click="subtract(1)" class="button alert">Subtract</button>
+        <h4>Current Count: {{counter}}</h4>
+        <script type="text/javascript" src="js/addingmachine.js"></script>
+    </body>
+</html>
